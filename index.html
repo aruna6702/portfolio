@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../portfolio/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#" class="active" style="--i:1" onclick="toggleSection('home')">Home</a>
+            <a href="../portfolio/about.html" style="--i:2;" >About</a>
+            <a href="../portfolio/skills.html" style="--i:3" onclick="toggleSection('skills')">Skills</a>
+            <a href="#" style="--i:4" onclick="toggleSection('portfolio')">Portfolio</a>
+            <a href="../portfolio/contact.html" style="--i:5" onclick="toggleSection('contact')">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero-container">
+        <div class="info-side">
+            <h3 class="part-1">Hello, It's Me</h3>
+            <h1>Aruna Selvam</h1>
+            <h3 class="part-2">And I'm a <span id="text">Frontend Developer</span></h3>
+            <p>Hello there! I'm currently on an exciting journey to become a Full Stack Developer. Currently enrolled in a comprehensive Full Stack Development course, I am gaining hands-on experience in both frontend and backend technologies, with a focus on creating dynamic and user-friendly web applications.</p>
+
+            <p>My coursework includes mastering essential technologies such as HTML, CSS, JavaScript. On the backend, I'm delving into server-side scripting using Java, database management with Sql.</p>
+
+            <p>Throughout the course, I've had the opportunity to work on practical projects that simulate real-world scenarios, allowing me to apply theoretical knowledge to practical problems. I am enthusiastic about learning new technologies and methodologies, and I am dedicated to staying updated with industry best practices.</p>
+
+            <p>As I continue to build my skills in both frontend and backend development, I am eager to contribute to innovative projects and collaborate with experienced professionals in the field. I am open to internships, entry-level positions, or any opportunity that allows me to further develop my skills and contribute to the success of a dynamic team.</p>
+
+
+
+            <a href="https://github.com/aruna6702"><i class="uil uil-github" style="--i:7"></i></a>
+            <a href="https://twitter.com/ArunaSelvam11"><i class="uil uil-twitter" style="--i:8"></i></a>
+            <a href="https://www.instagram.com/aruna_6702?igsh=MTA0cnE3bmVhZW55MQ=="><i class="uil uil-instagram" style="--i:9"></i></a>
+            <a href="https://www.linkedin.com/in/aruna-s-107686254/"><i class="uil uil-linkedin-alt" style="--i:10"></i></a>
+
+            <br>
+            <button class="btn" id="downloadResume">Download CV</button>
+        </div>
+
+        <div class="hero-img">
+            <img src="../portfolio/IMG-20230419-WA0003.jpeg" alt="My Pic">
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="../portfolio/script.js"></script>
+</body>
+</html>
